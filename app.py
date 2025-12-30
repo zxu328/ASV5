@@ -23,7 +23,7 @@ MODEL_NAME = "MOCK_MODEL_REMOVED"
 # --- MOCK DATA FOR OUTPUT STRING ---
 MOCK_JSON_OUTPUT = """
 {
-    "assessment_id": "AS-2025-001-MOCK",
+    "assessment_id": "AS-2025-001",
     "damage_detected": true,
     "damage_severity": "Moderate",
     "total_estimated_repair_hours": 14.3,
@@ -685,4 +685,5 @@ def main():
     else: show_login_page()
 
 if __name__ == "__main__":
+
     main()
